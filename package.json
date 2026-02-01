@@ -1,0 +1,25 @@
+{
+  "name": "@openclaw/wecom",
+  "version": "1.0.0",
+  "description": "企业微信(WeCom)通道插件 for OpenClaw",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["openclaw", "plugin", "wecom", "企业微信"],
+  "author": "OpenClaw Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "openclaw": ">=2026.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "openclaw": {
+    "plugin": true,
+    "channel": "wecom"
+  }
+}

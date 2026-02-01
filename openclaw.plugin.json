@@ -1,0 +1,7 @@
+{
+  "id": "wecom",
+  "name": "企业微信",
+  "description": "企业微信通道插件，支持完整的企业API",
+  "version": "1.0.0",
+  "openclawRuntime": ">=2026.2.0"
+}
